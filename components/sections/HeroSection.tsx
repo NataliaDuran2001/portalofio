@@ -31,10 +31,10 @@ export default function HeroSection() {
           <div className="space-y-6 animate-slide-up">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent">
-                Natalia Duran
+                Natalia Bolivia Durán Oliva
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-600 font-medium text-primary">
-                Full Stack Developer
+                Software Engineer | Full Stack Developer
               </h2>
             </div>
 
@@ -69,9 +69,11 @@ export default function HeroSection() {
             <p className="text-lg text-primary max-w-2xl mx-auto leading-relaxed">
               Ingeniera de Sistemas con más de{" "}
               <span className="font-semibold">4 años de experiencia</span>{" "}
-              en el desarrollo de soluciones robustas y escalables, especializada en{" "}
-              <span className="font-semibold">arquitecturas de microservicios</span>{" "}
-              y tecnologías cloud.
+              dando soluciones tecnológicas con {" "}
+              <span className="font-semibold">aplicaciones web y móviles</span>{" "}
+              priorizando la {" "}
+              <span className="font-semibold">experiencia del cliente</span>{" "}
+              y la construcción de software escalable.
             </p>
 
             {/* CTA Buttons */}

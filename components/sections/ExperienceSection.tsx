@@ -16,7 +16,7 @@ const experiences = [
       "Optimización de bases de datos Oracle y MongoDB para millones de registros",
       "Implementación de pipelines CI/CD con Jenkins y Azure DevOps"
     ],
-    technologies: ["Spring Boot", "NestJS", "React.js", "Apache Kafka", "Oracle", "MongoDB", "Kubernetes", "Docker", "Jenkins"]
+    technologies: ["Spring Boot", "NestJS", "Kony", "Mobile Development","React.js", "Apache Kafka", "Oracle", "MongoDB", "Kubernetes", "Docker", "Jenkins"]
   },
   {
     title: "Analista de Sistemas",
@@ -42,7 +42,7 @@ const experiences = [
       "40% de optimización en eficiencia de almacén",
       "Integración completa con SDK DI API de SAP B1"
     ],
-    technologies: ["SAP B1", "SDK DI API", "Web Services", "Database Integration"]
+    technologies: ["React.js", "SAP B1", "SDK DI API", "Web Services", "Database Integration"]
   },
   {
     title: "Desarrollador Full Stack",

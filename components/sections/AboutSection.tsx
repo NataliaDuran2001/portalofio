@@ -23,7 +23,7 @@ export default function AboutSection() {
     {
       icon: Users,
       title: "Liderazgo",
-      description: "Lead Organizer en Google Developer Groups desde 2019",
+      description: "Lead Organizer en Google Developer Groups Santa Cruz & Women Techmakers Santa Cruz",
     },
   ];
 
@@ -40,7 +40,7 @@ export default function AboutSection() {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Soy una desarrolladora apasionada por crear soluciones tecnológicas que generen 
               impacto real en los negocios, con un enfoque especial en arquitecturas escalables 
-              y la excelencia en el desarrollo de software.
+              y buenas prácticas en el desarrollo de software.
             </p>
           </div>
 
@@ -79,12 +79,12 @@ export default function AboutSection() {
                     </p>
                     <p>
                       Mi experiencia abarca desde el desarrollo de <strong className="text-pink-600">
-                      microservicios con Spring Boot</strong> hasta la implementación de 
-                      soluciones de streaming en tiempo real con Apache Kafka, siempre 
+                      microservicios</strong> hasta la implementación de 
+                      soluciones de streaming en tiempo real con <strong className="text-pink-600">Apache Kafka</strong>, siempre 
                       manteniendo las mejores prácticas de desarrollo seguro.
                     </p>
                     <p>
-                      Como <strong className="text-purple-600">Lead Organizer de Google Developer Groups</strong>, 
+                      Como <strong className="text-purple-600">Lead Organizer de Google Developer Groups & Women Teckmakers</strong>, 
                       me apasiona compartir conocimiento y contribuir al crecimiento de la 
                       comunidad tecnológica en Bolivia.
                     </p>
@@ -111,6 +111,15 @@ export default function AboutSection() {
                         <p className="font-medium text-gray-900">99% de precisión</p>
                         <p className="text-sm text-gray-600">
                           En sistema Anti-Lavado de Dinero (AMLC)
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full mt-3"></div>
+                      <div>
+                        <p className="font-medium text-gray-900">100% acceso a información</p>
+                        <p className="text-sm text-gray-600">
+                          Dando transparencia en procesos de despacho con entregas parciales registradas
                         </p>
                       </div>
                     </div>

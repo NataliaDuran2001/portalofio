@@ -217,7 +217,7 @@ export default function EducationSection() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-0 shadow-lg">
+                {/*<Card className="border-0 shadow-lg">
                   <CardHeader className="pb-4">
                     <h4 className="font-bold text-gray-900 flex items-center gap-2">
                       <Award className="w-5 h-5 text-purple-500" />
@@ -237,7 +237,7 @@ export default function EducationSection() {
                       ))}
                     </div>
                   </CardContent>
-                </Card>
+                </Card>*/}
               </div>
             </div>
           </div>
