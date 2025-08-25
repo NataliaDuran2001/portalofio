@@ -62,10 +62,9 @@ const projects = [
 		gradient: "from-purple-500 to-violet-500",
 	},
 	{
-		title: "Arquitectura de Microservicios Bancarios",
-		description:
-			"Diseño e implementación de arquitectura de microservicios para servicios bancarios core con alta disponibilidad.",
-		image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
+		title: "App bancaria - GanaMóvil",
+		description: "Diseño e implementación de iniciativas de negocio para aplicación móvil bancaria.",
+		image: "images/ganamovil.jpg",
 		achievements: [
 			"Alta disponibilidad del servicio",
 			"Escalabilidad horizontal",
@@ -108,7 +107,7 @@ export default function ProjectsSection() {
 						{projects.map((project, index) => (
 							<Card
 								key={index}
-								className="group border-0 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden bg-gradient-to-br from-white to-gray-50/50"
+								className="crusor-default group border-0 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden bg-gradient-to-br from-white to-gray-50/50"
 							>
 								{/* Project Image */}
 								<div className="relative overflow-hidden">
@@ -128,7 +127,7 @@ export default function ProjectsSection() {
 									</Badge>
 								</div>
 
-								<CardHeader className="pb-4">
+								<CardHeader className="pb-4 cursor-default">
 									<h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-500 transition-colors">
 										{project.title}
 									</h3>
@@ -137,7 +136,7 @@ export default function ProjectsSection() {
 
 								<CardContent>
 									{/* Achievements */}
-									<div className="mb-6">
+									<div className="mb-6 cursor-default">
 										<h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
 											<TrendingUp className="w-4 h-4 text-green-500" />
 											Resultados:
@@ -160,7 +159,7 @@ export default function ProjectsSection() {
 												<Badge
 													key={tech}
 													variant="secondary"
-													className="cursor-pointer text-xs bg-gradient-to-r from-blue-100 to-pink-100 text-gray-700"
+													className="cursor-default text-xs bg-gradient-to-r from-blue-100 to-pink-100 text-gray-700"
 												>
 													{tech}
 												</Badge>
